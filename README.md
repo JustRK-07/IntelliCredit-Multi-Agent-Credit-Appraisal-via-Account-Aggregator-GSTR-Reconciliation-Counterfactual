@@ -11,6 +11,13 @@
 ![Agents](https://img.shields.io/badge/AI%20Agents-7%20%2B%202%20Engines-purple?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/India%20Stack-AA%20%2B%20GSTN%20Native-green?style=for-the-badge)
 
+<br />
+<br />
+
+<video src="./Video/demo-video.mp4" controls="controls" width="800" autoplay loop muted playsinline>
+  Your browser does not support the video tag.
+</video>
+
 </div>
 
 ---
