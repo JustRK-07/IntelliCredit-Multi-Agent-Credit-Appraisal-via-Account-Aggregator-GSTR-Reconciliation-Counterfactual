@@ -13,9 +13,7 @@
 <br />
 <br />
 
-<video src="./Video/preview.mp4" controls="controls" width="800" autoplay loop muted playsinline>
-  Your browser does not support the video tag.
-</video>
+![Demo Preview](./Video/preview.gif)
 
 </div>
 
