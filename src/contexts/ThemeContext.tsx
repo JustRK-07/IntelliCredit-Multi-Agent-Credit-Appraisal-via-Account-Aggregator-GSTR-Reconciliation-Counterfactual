@@ -15,15 +15,17 @@ const THEME_KEY = "intellicredit-theme";
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<ThemeName>(() => {
     const stored = localStorage.getItem(THEME_KEY);
-    return stored === "gold" ? "gold" : "blue";
+    return stored === "blue" ? "blue" : "gold";
   });
 
   useEffect(() => {
     const root = document.documentElement;
     if (theme === "gold") {
       root.classList.add("theme-gold");
+      root.classList.add("dark");
     } else {
       root.classList.remove("theme-gold");
+      root.classList.remove("dark");
     }
     localStorage.setItem(THEME_KEY, theme);
   }, [theme]);
